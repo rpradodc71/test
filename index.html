@@ -54,16 +54,16 @@
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/antenas2.jpg" class="d-block w-100" alt="...">
+        <img src="test/images/antenas2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/DAS2.jpg" class="d-block w-100" alt="...">
+        <img src="test/images/DAS2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/Datacenter2.jpg" class="d-block w-100" alt="...">
+        <img src="test/images/Datacenter2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/nemo2.jpg" class="d-block w-100" alt="...">
+        <img src="test/images/nemo2.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -83,7 +83,7 @@
 
     <div class="row">
       <div  class="image3 col-12">
-        <img  src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/Prose.jpg"  alt="..."></img>
+        <img  src="test/images/Prose.jpg"  alt="..."></img>
       </div>
       <br>
       <br>
@@ -94,27 +94,27 @@
       </div>    
      
       <div id="image4"class="col-12">
-        <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/Proseproducts2.jpg"  alt="...">
+        <img src="test/images/Proseproducts2.jpg"  alt="...">
       </div>
     </div>
     
     <div id="key" class="row">
       <div  class="image1 col-12">
-        <img  src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/k2.png"  alt="..."></img>
+        <img  src="test/images/k2.png"  alt="..."></img>
       </div>
       <div id="textk" class="col-12">
        MGR es distribuidor autorizado de Keysight Technologies en el Perú. Keysight desarrolla herramientas de medición para redes inalámbricas a través de su línea de productos Nemo. Entre los principales productos para mediciones de señales de sistemas celulares desarrollados por Keysight se encuentran: equipos de colección de datos, herramientas de post procesamiento de datos y herramienta de gestión y control remoto. Estos abarcan todas las etapas del ciclo de vida de una red inalámbrica desde las pruebas de laboratorio, el despliegue de la red, optimización y pruebas comparativas con otras redes (Benchmarking). Asimismo el monitoreo de red y el control, post proceso y manejo remoto. Encuentre más detalles sobre los productos Keysight Technologies en el siguiente enlace: Productos Keysight.
       </div>    
      
       <div id="image2"class="col-12">
-        <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/Nemoproducts3.png"  alt="...">
+        <img src="test/images/Nemoproducts3.png"  alt="...">
       </div>
     </div>
     <br>
     <br>
 
     <div class="clearfix opacity-100">
-      <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/especializacion.jpg"  id="espec" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      <img src="test/images/especializacion.jpg"  id="espec" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
   
       <h1> Nuestra especialización:</h1>
       <p>
@@ -126,11 +126,14 @@
     </div>
   </div>
 
-  <!-- <div class="container-fluid contact">
+
+  <form id="contactform" action="https://formsubmit.io/send/rpradodc@gmail.com" method="POST"></form>
+  <div class="container-fluid contact">
+
     <div class="row">
       <div class="col-md-3">
         <div class="contact-info">
-          <img src="C:/Users/Ricardo/Desktop/MGR%20WEBPAGE/images/contact-image.png" alt="image"/>
+          <img src="test/images/contact-image.png" alt="image"/>
           <h2>Contáctenos</h2>
           <h4>Gustosos les respondremos inmediatamente!</h4>
         </div>
@@ -139,40 +142,45 @@
         <div class="contact-form">
           <div class="form-group">
             <label class="control-label col-sm-2" for="fname">Nombre:</label>
-            <div class="col-sm-10">          
-            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+            <div class="col-sm-10">
+            <input name="name" type="text" id="name" class="form-control">        
+            <!-- <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname"> -->
             </div>
           </div>
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label class="control-label col-sm-2" for="lname">Apellido:</label>
             <div class="col-sm-10">          
             <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
             </div>
-          </div>
+          </div> -->
           <div class="form-group">
             <label class="control-label col-sm-2" for="email">Email:</label>
             <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <input name="email" type="email" id="email" class="form-control">
+            <!-- <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"> -->
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="comment">Commentario:</label>
             <div class="col-sm-10">
-            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <textarea name="comment" id="comment" class="form-control" rows="5"></textarea>
+            <!-- <textarea class="form-control" rows="5" id="comment"></textarea> -->
             </div>
           </div>
           <div class="form-group">        
             <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Enviar mensaje</button>
+              <input name="_formsubmit_id" type="text" style="display:none">
+              <input value="Submit" type="submit">
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-<br> -->
+  </form>
+<br>
 
-<form id="contactform" action="https://formsubmit.io/send/rpradodc@gmail.com" method="POST">
+<!-- <form id="contactform" action="https://formsubmit.io/send/rpradodc@gmail.com" method="POST">
   <input name="name" type="text" id="name">
   <input name="email" type="email" id="email">
   <textarea name="comment" id="comment" rows="3"></textarea>
@@ -180,7 +188,7 @@
   <input name="_formsubmit_id" type="text" style="display:none">
 
   <input value="Submit" type="submit">
-</form>
+</form> -->
 
 
 
